@@ -1,0 +1,9 @@
+Notepad Sharp 0.2.0
+-The first release
+
+Notepad Sharp 0.2.1
+-Added Zoom feature
+
+Notepad Sharp 0.2.2
+-Added XML Support
+-Bug fix: User cannot save after renaming the file
