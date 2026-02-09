@@ -54,13 +54,13 @@ document.addEventListener("DOMContentLoaded", () => {
   if (installerButton) {
     installerButton.addEventListener("click", () => {
       window.location.href =
-        "installer_stand_alone/Notepad Sharp_0.2.2_x64_en-US.msi";
+        "installer_stand_alone/Notepad Sharp_0.2.3_x64_en-US.msi";
     });
   }
 
   if (standaloneButton) {
     standaloneButton.addEventListener("click", () => {
-      window.location.href = "installer_stand_alone/Notepad Sharp_0.2.2.exe";
+      window.location.href = "installer_stand_alone/Notepad Sharp_0.2.3.exe";
     });
   }
 });

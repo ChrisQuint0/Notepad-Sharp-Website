@@ -7,3 +7,6 @@ Notepad Sharp 0.2.1
 Notepad Sharp 0.2.2
 -Added XML Support
 -Bug fix: User cannot save after renaming the file
+
+Notepad Sharp 0.2.3
+-Added XSL Support
