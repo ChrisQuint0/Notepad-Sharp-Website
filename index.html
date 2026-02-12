@@ -1,14 +1,14 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Notepad# – Lightweight Code Notepad for Potato Laptops</title>
+    <title>Notepad# – The Sharpest Code Notepad</title>
     <link rel="icon" type="image/png" href="../assets/notepad-sharp-logo.png" />
 
     <meta
       name="description"
-      content="Notepad# is a lightweight, distraction‑free code notepad with CodeMirror syntax highlighting, built for potato laptops. Multi‑tab editing, quick templates, and a simple code runner."
+      content="Notepad# is a lightweight, distraction‑free code notepad with syntax highlighting and multi‑tab editing. Fast, focused, and better than the standard notepad."
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -22,7 +22,7 @@
         />
         <div class="brand">
           <span class="brand-title">Notepad#</span>
-          <span class="brand-tagline">Code, minus the clutter.</span>
+          <span class="brand-tagline">The sharpest there is.</span>
         </div>
       </div>
     </header>
@@ -34,17 +34,16 @@
           <div class="hero-copy">
             <h1 class="hero-title">
               Notepad#
-              <span class="hero-title-accent">Built for potato laptops.</span>
+              <span class="hero-title-accent">Lightweight. Fast. Better.</span>
             </h1>
             <p class="hero-lead">
-              A minimalist desktop code notepad with CodeMirror One Dark syntax
-              highlighting, multi‑tab editing, and a tiny footprint. Perfect
-              when you just want to open a file, type, and run code.
+              A lightweight desktop code notepad with syntax highlighting,
+              multi‑tab editing, and a tiny footprint. Better than your standard
+              notepad, without the bloat of a full IDE.
             </p>
             <p class="hero-sub">
-              Made by a potato‑laptop owner, for potato‑laptop owners. Notepad#
-              starts fast, stays out of your way, and keeps your focus on the
-              code.
+              Notepad# starts fast, stays out of your way, and keeps your focus
+              on the code.
             </p>
 
             <div class="hero-cta">
@@ -66,44 +65,20 @@
 
             <div class="hero-details" id="features">
               <div class="detail-pill">Multi‑tab editor</div>
-              <div class="detail-pill">One Dark syntax highlighting</div>
-              <div class="detail-pill">Quick language templates</div>
+              <div class="detail-pill">Syntax highlighting</div>
+              <div class="detail-pill">Reorderable tabs</div>
               <div class="detail-pill">Lightweight &amp; fast</div>
-              <div class="detail-pill">Simple code runner</div>
+              <div class="detail-pill">Native file dialogs</div>
             </div>
           </div>
 
           <div class="hero-panel">
-            <div class="editor-mock">
-              <div class="editor-header">
-                <div class="traffic-dots">
-                  <span></span><span></span><span></span>
-                </div>
-                <span class="editor-title">main.cpp – Notepad#</span>
-              </div>
-              <div class="editor-body">
-                <div class="editor-gutter">
-                  <span>1</span>
-                  <span>2</span>
-                  <span>3</span>
-                  <span>4</span>
-                  <span>5</span>
-                  <span>6</span>
-                </div>
-                <pre
-                  class="editor-code"
-                  aria-hidden="true"
-                ><span class="kw">#include</span> <span class="str">&lt;bits/stdc++.h&gt;</span>
-<span class="kw">using</span> <span class="ty">namespace</span> std;
-
-<span class="kw">int</span> <span class="fn">main</span>() {
-    ios::sync_with_stdio(<span class="kw">false</span>);
-    cin.tie(<span class="kw">nullptr</span>);
-
-    cout &lt;&lt; <span class="str">"Hello from Notepad#"</span> &lt;&lt; <span class="str">"\n"</span>;
-    <span class="kw">return</span> <span class="num">0</span>;
-}</pre>
-              </div>
+            <div class="editor-preview">
+              <img
+                src="assets/preview.png"
+                alt="Notepad# editor interface preview"
+                class="preview-image"
+              />
             </div>
           </div>
         </div>
@@ -115,47 +90,36 @@
           <div class="split-text">
             <h2>Why Notepad#?</h2>
             <p>
-              Notepad# is a focused little editor for when you don’t want to
-              wait for a heavy IDE to boot. Pop it open, pick a language
-              template, type your solution, and run it — all in a few key
-              presses.
+              Notepad# is a lightweight editor for when you want a simple, fast
+              alternative to standard notepad without waiting for a heavy IDE to
+              boot. Open a file, edit with confidence, and save — all with a
+              clean, distraction-free interface.
             </p>
             <ul class="feature-list">
               <li>
-                <strong>Multi‑tab workflow</strong> – keep several files open
-                with modified‑state badges so you always know what changed.
+                <strong>Multi‑tab workflow</strong> – keep several files open at
+                once with reorderable tabs, per-tab cursor positions, and
+                modified‑state indicators.
               </li>
               <li>
-                <strong>CodeMirror One Dark theme</strong> – syntax highlighting
-                that feels like a full IDE, without the RAM bill.
+                <strong>Syntax highlighting</strong> – code highlighting powered
+                by CodeMirror 6 with support for multiple languages, without
+                slowing you down.
               </li>
               <li>
-                <strong>Language templates</strong> – instant boilerplate for
-                C#, C++, Java, and Python with simple keyboard shortcuts.
+                <strong>Two curated themes</strong> – Dracula (dark) and GitHub
+                Light (light) with a toolbar toggle that switches the entire UI.
               </li>
               <li>
-                <strong>Built‑in code runner</strong> – send code to the Piston
-                API, view input/output side by side, and iterate quickly.
+                <strong>Native file integration</strong> – open, save, rename
+                files, and use native file dialogs thanks to Tauri.
               </li>
               <li>
-                <strong>Minimal shortcuts</strong> – just the essentials: format
-                &amp; save (Ctrl + S), new tab (Ctrl + N), close tab (Ctrl + W),
-                open file (Ctrl + O), open runner (Alt + N).
+                <strong>Essential shortcuts</strong> – intuitive keyboard
+                commands for all core tasks: save (Ctrl + S), open (Ctrl + O),
+                new tab (Ctrl + N), close tab (Ctrl + W), and more.
               </li>
             </ul>
-            <p class="note">
-              Network access is only required for remote execution through
-              Piston; editing and file operations work completely offline.
-            </p>
-          </div>
-          <div class="split-visual">
-            <div class="screenshot-frame">
-              <img
-                src="assets/preview.png"
-                alt="Screenshot preview of the Notepad# editor"
-                class="screenshot-image"
-              />
-            </div>
           </div>
         </div>
       </section>
@@ -163,13 +127,9 @@
       <!-- FOOTER -->
       <footer class="site-footer">
         <div class="container footer-inner">
-          <p>
-            Built with Vite + TypeScript + Tauri, running CodeMirror 6 and the
-            Piston HTTP API behind the scenes.
-          </p>
+          <p>Built with Vite + TypeScript + Tauri, running CodeMirror 6.</p>
           <p class="footer-small">
-            Notepad# was originally crafted for Christopher Quinto’s potato
-            laptop.
+            Originally made for Christopher Quinto's potato laptop.
           </p>
         </div>
       </footer>
@@ -222,9 +182,9 @@
         <div class="modal-faq">
           <h3>What is a standalone file?</h3>
           <p>
-            A standalone file is a portable version of Notepad#. You don’t need
+            A standalone file is a portable version of Notepad#. You don't need
             to install anything — just download the <code>.exe</code>,
-            double‑click it, and you’re ready to code.
+            double‑click it, and you're ready to code.
           </p>
 
           <h3>What is the installer?</h3>

@@ -10,3 +10,9 @@ Notepad Sharp 0.2.2
 
 Notepad Sharp 0.2.3
 -Added XSL Support
+
+Notepad Sharp 0.2.4
+-Added Draggable Tabs
+
+Notepad Sharp 0.2.5
+-Cleaned up UI and bloat features(Code runner, templates, and multiple themes).
