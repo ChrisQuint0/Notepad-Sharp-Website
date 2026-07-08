@@ -16,3 +16,10 @@ Notepad Sharp 0.2.4
 
 Notepad Sharp 0.2.5
 -Cleaned up UI and bloat features(Code runner, templates, and multiple themes).
+
+Notepad Sharp 0.2.6
+- The lightmode tab's x when hovered should be less darker, a simple grayish color would suffice.
+- In renaming the tab in lightmode, the rename input is still dark, it should also be light.
+- The scrollbar in lightmode is dark
+- There should be a clickable add new button instead of just Ctrl + New (Just a + icon button next to the last tab)
+- Fix the undo, currently it can undo and retrieve things that are not made in the same file or current tab.
